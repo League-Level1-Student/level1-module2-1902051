@@ -7,7 +7,6 @@ package _04_tea_maker;
 public class TeaMaker {
 
 	/* Figure out how to make a cup of tea in this runner class, using the other classes below */
-
 }
 
 class TeaBag {
@@ -18,7 +17,12 @@ class TeaBag {
 	public final static String PASSION_FRUIT = "Passion Fruit";
 
 	private String flavor;
-
+	private String name;
+	private String water;
+	void TeaMaker(String name) {
+		this.name = name;
+	}
+	
 	TeaBag(String flavor) {
 		this.flavor = flavor;
 	}
